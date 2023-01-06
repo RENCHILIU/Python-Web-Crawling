@@ -2,7 +2,7 @@ import requests
 import os
 
 url = "https://renchiliu.com/upload/IMG_5822.JPG"
-root = "/home/pics/"   # be careful about the las / 
+root = "/home/pics/"   # be careful about the last / 
 path = root + url.split('/')[-1]
 
 
